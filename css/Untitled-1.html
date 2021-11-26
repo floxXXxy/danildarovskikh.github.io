@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1>Cколько деняг?</h1>
+<input type="text" id="input"> oninput: <span id="result"></span>
+<script>
+input.oninput = function() {
+if(input.value < 300) {
+result.innerHTML = "Мало деняг!";
+} else {
+if (input.value <=3000) {
+result.innerHTML = "Купи чайник!";
+} else {
+if (input.value <=10000) {
+result.innerHTML = "Купи микроволновку!";
+} else {
+result.innerHTML = "Купи холодос!";
+}
+}
+}
+};
+</script>
+</body>
+</html»

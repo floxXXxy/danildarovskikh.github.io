@@ -1,0 +1,26 @@
+/* Bold */
+@font-face {
+	font-family: 'GothamPro';
+	src: url('GothaProBol.eot');
+	src: local('☺'), url('GothaProBol.woff') format('woff'), url('GothaProBol.ttf') format('truetype'), url('GothaProBol.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Medium */
+@font-face {
+	font-family: 'GothamPro';
+	src: url('GothaProMed.eot');
+	src: local('☺'), url('GothaProMed.woff') format('woff'), url('GothaProMed.ttf') format('truetype'), url('GothaProMed.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* Regular */
+@font-face {
+	font-family: 'GothamPro';
+	src: url('GothaProReg.eot');
+	src: local('☺'), url('GothaProReg.woff') format('woff'), url('GothaProReg.ttf') format('truetype'), url('GothaProReg.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
